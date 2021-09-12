@@ -1,0 +1,48 @@
+body{
+    
+  text-align: center;
+  animation-name: grocery;
+  animation: grocery 15s infinite;
+  
+  
+  
+  }
+@keyframes grocery{
+    0% {background-color: rgb(127, 184, 71);}
+    30% {background-color: rgb(160, 190, 27);}
+    60% {background-color: rgb(230, 189, 55);}
+    80% {background-color: chartreuse;}
+    100% {background-color: rgb(223, 144, 212);}
+    130% {background-color: rgb(221, 179, 124);}
+    140% {background-color: rgb(102, 168, 37);}
+    160% {background-color: rgb(118, 129, 192);}
+    170% {background-color: rgb(189, 71, 81);}
+    180% {background-color: rgb(33, 72, 117);}
+    200% {background-color: rgb(223, 144, 212);}
+    230% {background-color: rgb(156, 109, 48);}
+
+
+
+}
+
+#demo {
+    border: 1px solid rgb(12, 177, 86);
+    
+    background-color: lightyellow;
+    
+    }
+    th, td {
+      border: 1px solid black;
+    }
+    th{
+      background-color: green;
+    }
+   
+    #table1{
+      
+      text-align: left;
+      
+    }
+    h1{
+      color: white;
+    }
